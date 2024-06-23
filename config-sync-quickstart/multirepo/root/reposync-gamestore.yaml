@@ -32,6 +32,6 @@ spec:
     # Other supported auth: `ssh`, `cookiefile`, `token`, `gcenode`.
     auth: none
     # Refer to a Secret you create to hold the private key, cookiefile, or token.
-    # secretRef:
-    #   name: SECRET_NAME
+    secretRef:
+      name: git-creds
 # [END anthosconfig_config_sync_quickstart_multirepo_root_repo_sync] 
